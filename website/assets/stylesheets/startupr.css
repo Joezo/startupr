@@ -1,0 +1,67 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 100;
+  min-height: 100%;
+}
+
+.navbar-brand {
+  font-family: 'Lobster Two', cursive;
+  font-weight: 200;
+  font-size: 1.6em;
+}
+
+.splash {
+  background: url('../images/splash.jpg') no-repeat center center;
+  background-size: cover;
+  box-shadow: inset 0 0 100px #000;
+  height: 100%;
+  position: relative;
+}
+
+.splash:before {
+  background: #CCC;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.splash .container {
+  margin-top: 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.splash .intro {
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.splash h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 8em;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1em;
+  text-shadow: 1px 1px 0 #CCC;
+}
+
+.splash input {
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 1px #333, inset -1px -1px 1px #666;
+  outline: none;
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+}
