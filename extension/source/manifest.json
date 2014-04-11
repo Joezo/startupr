@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Startupr",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Replaces the end of any word ending in 'er' with 'r' e.g. plonker becomes plonkr",
   "content_scripts": [{
     "matches": [
